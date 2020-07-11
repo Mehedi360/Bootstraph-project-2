@@ -1,0 +1,107 @@
+.navbar {
+    background: #000;
+
+}
+    .navbar .nav-link {
+      font-size: 16px;
+      text-transform: uppercase;
+      padding-left: 1em !important;
+      padding-right: 1em !important; }
+  
+  .carousel-item {
+    height: 450px; }
+  
+  .carousel-img-1 {
+    background: url("../img/image1.jpeg");
+    background-size: cover; }
+  
+  .carousel-img-2 {
+    background: url("../img/image2.jpeg");
+    background-size: cover; }
+  
+  .carousel-img-3 {
+    background: url("../img/image3.jpeg");
+    background-size: cover; }
+
+#headsection .fa{
+    font-size: 40px;
+}
+
+#getstrat{
+    background-image: url("../img/pc.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+    min-height: 250px;
+    background-size: cover;
+    
+    
+}
+
+.overlay{
+    background: rgb(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0 ;
+   
+}
+
+#videosection{
+    background-image: url("../img/people.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dark-overlay{
+    background: rgb(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+
+}
+#videosection .fa{
+    font-size: 60px;
+}
+
+footer{
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#abouthead{
+    background: url("../img/image2.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#abouthome img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+#aboutcard .fa{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+    #getstrat{
+        display: none;
+    }
+   
+}
